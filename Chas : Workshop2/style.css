@@ -1,0 +1,61 @@
+.background {
+    background-image: url(hero.jpg);
+    height: 800px;
+    width: 100%; 
+    background-size: cover;
+    background-position: center;
+}
+
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    width: 70px; 
+    height: 70px;
+}
+
+nav {
+    position: absolute;
+    top: 40px;
+    right: -200px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 0px;
+    width: 50%;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav a.apply {
+    background-color: #4a64fb;
+    padding: 10px; 
+    color: white;
+    border-radius: 20px;
+}
+
+.center-text {
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 80%;
+    font-size: 2em;
+    line-height: 0.3;
+}
+
+.center-under {
+    position: absolute;
+    color: white;
+    top: 84%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 80%;
+    line-height: 0.3;
+}
